@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.main {
+  height: 95vh;
+  width: 100%;
+  background-image: url(assets/image/bgimg1.jpg);
+  background-size: max(1200px, 100vw);
+  /* background-position: center;  */
+  position: relative;
+  /* z-index: 0; */
+}
+.box {
+  height: 95vh;
+  width: 100%;
+  background-color: black;
+  filter: opacity(0.7);
+  position: absolute;
+  top: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.logo {
+  width: 9.25rem;
+  position: relative;
+  z-index: 10;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 80vw;
+  margin: auto;
+  position: relative;
+  z-index: 5;
+}
+.section > :first-child {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding: 5px;
+}
+.section > :nth-child(2) {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px;
+}
+.section > :nth-child(3) {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  padding: 5px;
+}
+.section > :nth-child(4) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section {
+  position: relative;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 94%;
+  width: 100%;
+  gap: 15px;
+}
+.getst {
+  color: white;
+  background-color: red;
+  border: none;
+  width: 207px;
+  height: 59px;
+  font-size: 24px;
+  border-radius: 7px;
+  font-weight: 500;
+  transition: all 0.5s ease-out;
+}
+#lang {
+  background-color: black;
+  color: white;
+  height: 37px;
+  width: 100px;
+  text-align: center;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 17px;
+}
+nav span button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 75px;
+  height: 32px;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 10px;
+  transition: all 0.5s ease-out;
+}
+#email {
+  background-color: rgba(0, 0, 0, 0.405);
+  border-color: #d9d7d7;
+  width: 383px;
+  height: 60px;
+  border-radius: 5px;
+  text-indent: 10px;
+  color: white;
+}
+.first {
+  background-color: black;
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  padding: 15px 0px;
+}
+.text2 > :first-child {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.text2 > :nth-child(2) {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.text2 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tv {
+  position: relative;
+}
+.tv img {
+  position: relative;
+  z-index: 10;
+  width: 640px;
+}
+.tv video {
+  position: absolute;
+  z-index: 1;
+
+  top: 98px;
+  left: 78px;
+}
+.seperation {
+  height: 7px;
+  background-color: rgb(45, 45, 45);
+}
+.second {
+  background-color: black;
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  padding: 15px 0px;
+}
+.mob {
+  padding: 10px;
+}
+.third {
+  background-color: black;
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  padding: 15px 0px;
+}
+.tv2 {
+  position: relative;
+}
+.tv2 img {
+  position: relative;
+  z-index: 10;
+  width: 605px;
+  top: 57px;
+}
+.tv2 video {
+  position: absolute;
+  z-index: 1;
+  top: 98px;
+  left: 98px;
+  width: 397px;
+}
+.fourth {
+  background-color: black;
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  padding: 15px 0px;
+}
+.children img {
+  width: 600px;
+  margin-top: 64px;
+}
+.faq > :first-child {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding: 5px;
+  margin: 28px 0px;
+}
+.faq > :nth-child(7) {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  padding: 5px;
+  margin-top: 28px;
+}
+.faq > :nth-child(8) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.ques {
+  display: flex;
+  background-color: rgb(45, 45, 45);
+  width: 70vw;
+  height: 65px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px;
+  color: white;
+  transition: all 0.5s ease-out;
+}
+.ques svg {
+  filter: brightness(80);
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(170, 0, 0);
+  /* transform: scaleX(1.1); */
+}
+.ques:hover {
+  background-color: rgb(85, 83, 83);
+  cursor: pointer;
+}
+.foot {
+  color: rgb(168, 167, 167);
+  width: 80vw;
+  margin: auto;
+  padding: 64px 0px;
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  padding: 10px 0px;
+  list-style-type: none;
+}
+@media screen and (max-width: 1200px) {
+  .first {
+    flex-wrap: wrap;
+  }
+  .second {
+    flex-wrap: wrap;
+  }
+  .third {
+    flex-wrap: wrap;
+  }
+  .fourth {
+    flex-wrap: wrap;
+  }
+  .tv img {
+    width: 300px;
+  }
+  .tv video {
+    width: 244px;
+    top: 48px;
+    left: 37px;
+  }
+  .tv2 img {
+    width: 300px;
+    top: 15px;
+  }
+  .tv2 video {
+    width: 192px;
+    top: 34px;
+    left: 55px;
+  }
+  .mob img {
+    width: 300px;
+  }
+  .children img {
+    width: 300px;
+  }
+  .text2 > :first-child {
+    font-size: 2rem;
+  }
+  .foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  nav {
+    width: 94vw;
+  }
+  .logo {
+    width: 6.25rem;
+  }
+  #lang {
+    height: 26px;
+    width: 83px;
+  }
+  nav span button {
+    width: 61px;
+    height: 25px;
+  }
+  .section > :first-child {
+    font-size: 2rem;
+  }
+  #email {
+    width: 294px;
+    height: 46px;
+  }
+  .getst {
+    width: 176px;
+    height: 48px;
+  }
+  .faq > :first-child {
+    font-size: 2rem;
+  }
+}

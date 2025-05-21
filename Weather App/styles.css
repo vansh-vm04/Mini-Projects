@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.search button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.active {
+    background-image: url(images/weather.jpg);
+    width: 344px;
+    height: 464px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* backdrop-filter: opacity(0.3); */
+    /* background-color: blue; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    padding: 24px;
+    gap: 7%;
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    box-shadow: 6px 5px 6px #00000047;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes slide {
+    0%{
+        opacity:0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    color: white;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#temp{
+    font-size: 3rem;
+    color: white;
+}
+#wind{
+    font-size: 2rem;
+    color: white;
+}
+#humid{
+    font-size: 2rem;
+    color: white;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+#wicon{
+    width: 50%;
+}
+#wlogo{
+    width: 55%;
+}
+#hlogo{
+    width: 67%;
+}

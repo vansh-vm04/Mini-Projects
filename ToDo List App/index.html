@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="getSavedData()">
+    <header id="nav">
+      <div class="title">To-Do List</div>
+      <nav>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <div class="darkbtn">
+          <div id="icon">
+            <i class="bx bx-moon"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="main">
+      <div class="text">
+        <form class="text">
+          <label for="title">Title:</label>
+          <input type="text" id="title" />
+          <label for="desc">Description:</label>
+          <input type="text" id="desc" />
+          <button type="submit" id="submit">Add</button>
+          <button id="clr">Clear</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

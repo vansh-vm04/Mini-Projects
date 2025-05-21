@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 5px 6px #00000036;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav {
+  display: flex;
+  gap: 14px;
+  margin-right: 20px;
+}
+nav a {
+  text-wrap: nowrap;
+  text-decoration: none;
+}
+
+#main {
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+  margin-top: 8%;
+  background-color: white;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.122);
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding: 24px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: rgba(0, 115, 255, 0.505);
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+}
+h1 {
+  color: blue;
+  font-family: ui-monospace;
+  font-size: 3rem;
+}
+.text label {
+  color: blue;
+}
+#title {
+  width: 104px;
+  height: 24px;
+  text-wrap: wrap;
+  border: 0px solid;
+  overflow: scroll;
+  padding-left: 10px;
+  border-radius: 5px;
+  text-overflow: clip;
+  box-shadow: 2px 2px 7px #0000004a inset;
+}
+#desc {
+  width: 94%;
+  height: 80px;
+  text-wrap: wrap;
+  border: 0px solid;
+  overflow: scroll;
+  padding-left: 11px;
+  border-radius: 10px;
+  text-overflow: clip;
+  box-shadow: 3px 3px 8px #0000004a inset;
+}
+.text button {
+  width: 76px;
+  border: none;
+  margin-top: 23px;
+  height: 29px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+#delete:hover {
+  background-color: rgb(184, 0, 0);
+}
+#submit:hover {
+  background-color: rgba(15, 0, 184, 0.751);
+}
+form {
+  width: 90%;
+  height: 100%;
+}
+#todo {
+  background-color: rgb(0 110 255 / 93%);
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  padding: 20px;
+  width: 60%;
+  margin: 10px;
+  box-shadow: 6px 6px 4px #0000ff30;
+  animation: slide 0.3s ease-in 1;
+  margin-left: 108px;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(50px);
+  }
+}
+#delete {
+  width: 76px;
+  border: none;
+  margin-top: 23px;
+  height: 29px;
+  background-color: rgb(255, 17, 17);
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+#clr {
+  width: 76px;
+  border: none;
+  margin-top: 23px;
+  height: 29px;
+  background-color: rgb(255, 17, 17);
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.active {
+  transform: translateX(27px);
+  transition-duration: 0.5s;
+}
+
+.darkbtn {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 2px 10px black inset;
+  width: 52px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#icon {
+  border-radius: 100%;
+  background-color: white;
+  width: 43%;
+  height: 89%;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  justify-content: center;
+  cursor: pointer;
+}
+body.dark {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+#main.dark {
+  background-color: rgba(0, 0, 0, 0.912);
+}
+#nav.dark {
+  background-color: rgba(0, 0, 0, 0.912);
+}
+.darkbtn.dark {
+  background-color: blue;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(149, 0, 255);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgb(0, 98, 255), rgb(195, 0, 255));
+  border-radius: 10px;
+}
+.title{
+  color: blue;
+    font-family: ui-monospace;
+    font-size: 2rem;
+    font-weight: 1000;
+    text-wrap: nowrap;
+    margin-left: 10px;
+}
